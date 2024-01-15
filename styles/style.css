@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,700;0,800;1,800&display=swap');
+
+
+body{
+  font-family: 'Mulish', sans-serif;
+}
+
+/* common styles */
+.hdmain{
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+}
+.hero-travel-icon{
+  color: #FF5400;
+  font-size: 36px;
+  font-weight: 800;
+}
+.text-common{
+  color: #424247;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  }
+
+
+
+/* header section */
+.header-parent-section{
+  max-width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 15px;
+}
+.icon-section{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.icon-section img{
+  width: 48px;
+  height: 56.008px;
+}
+.nav-main a{
+  text-decoration: none;
+  margin-left: 45px;
+}
