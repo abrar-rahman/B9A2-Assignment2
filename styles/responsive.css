@@ -12,7 +12,7 @@
   }
   .banner-text-section h1{
     font-size: 22px;
-    color: rgb(134, 125, 125);
+    color: rgb(237, 221, 221);
   }
   .banner-input-section{
     display: flex;
@@ -55,13 +55,31 @@
   }
 
   /* dealsanddiscounts-section */
-  .ddpackages{
-    justify-content: center;
-    
-  }
-  .ddcard{
+  .dealsanddiscounts-container{
+    /* padding: 25px; */
     align-items: center;
   }
+  .ddpackages{
+    justify-content: center;
+    min-height: 520px;
+    background-repeat: no-repeat;
+  }
+  .ddpackages2{
+    justify-content: center;
+    min-height: 520px;
+    background-repeat: no-repeat;
+  }
+  .ddcard{
+    margin-left: 45px;
+    /* height: 310px; */
+    /* padding: 60px; */
+
+  }
+ 
+  .ddcard2{
+    margin-right: 45px;
+  }
+  
 
   /* video section */
   .video-main{
