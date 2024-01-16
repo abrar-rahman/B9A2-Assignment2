@@ -224,7 +224,7 @@ body{
   padding: 25px;
 }
 .fa-solid{
-  font-size: 40px;
+  font-size: 20px;
 }
 
 
@@ -362,8 +362,8 @@ body{
 .footer-main *{
   margin-bottom: 15px;
 }
-.footer-main .font-awesome-container *{
- gap: 55px;
+.footer-main .font-awesome-container {
+
 }
 .copyright{
   padding-top: 140px;
