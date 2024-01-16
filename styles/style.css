@@ -383,7 +383,7 @@ body{
   border-radius: 16px;
   padding: 30px;
   gap: 20px;
- align-items: center;
+ 
 }
 .newsletter-text *{
   margin-bottom: 15px;
@@ -413,6 +413,8 @@ body{
   text-align: center;
   align-items: center;
   padding: 35px;
+  transform: rotate(-27deg);
+  
 }
 .voucher p{
   color: #FFF;
