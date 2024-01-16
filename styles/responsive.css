@@ -1,14 +1,32 @@
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   
+  .hamburger{
+    display: block;
+  }
   
-  
-  
+  .icon-section img{
+   width: 28.724px;
+  height: 33.516px;
+  }
+  .icon-section h2{
+    font-size: 24px;
+   
+  }
+  .icon-section h2 span{
+    font-size: 24px;
+   
+  }
+  .nav-main{
+    transform: translateX(-200%);
+  }
   /* banner section */
   .banner-main{
     /* height: 1000px; */
   }
   .banner-text-section{
-    padding-top: 2px;
+    padding-top: 30px;
+    margin-bottom: 35px;
+
   }
   .banner-text-section h1{
     font-size: 22px;
@@ -38,7 +56,10 @@
     padding: 16px;
     
   }
-  
+  .popular-img-section img{
+  margin-left: 15px;
+}
+
 
   /* destination section */
 
@@ -63,11 +84,15 @@
     justify-content: center;
     min-height: 520px;
     background-repeat: no-repeat;
+    margin: 0 15px;
+    border-radius: 16px;
   }
   .ddpackages2{
     justify-content: center;
     min-height: 520px;
     background-repeat: no-repeat;
+    margin: 0 15px;
+    border-radius: 16px;
   }
   .ddcard{
     margin-left: 45px;
@@ -102,6 +127,7 @@
   .newsletter-main .newsletter-text{
     width: 90%;
     padding: 25px;
+    margin-left: 30px;
   }
   .newsletter-img {
     width: 80%;
