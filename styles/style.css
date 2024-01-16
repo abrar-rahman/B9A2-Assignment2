@@ -107,7 +107,7 @@ body{
   padding-top: 20px;
 }
 .banner-text-section h1{
-  
+  padding-top: 70px;
   color: #FFF;
   font-size: 64px;
   font-weight: 800;
@@ -202,6 +202,7 @@ body{
 }
 .chooseus-head{
   text-align: center;
+  margin-top: 140px;
 }
 .chooseus-body{
   /* display: flex;
@@ -378,11 +379,11 @@ body{
 .newsletter-text{
   border: 1px solid #FF5400;
   width: 50%;
-  height: 370px;
+  height: 420px;
   border-radius: 16px;
   padding: 30px;
   gap: 20px;
- 
+ align-items: center;
 }
 .newsletter-text *{
   margin-bottom: 15px;
@@ -400,8 +401,8 @@ body{
   border-radius: 16px;
 }
 
-.newsletter-img-main{
-  min-height: 422px;
+.newsletter-img-main .img-container{
+ height: 380px;
 }
 
 .voucher{
