@@ -346,3 +346,25 @@ body{
   top: 200px;
   right: 40px;
 }
+
+
+/* Footer section */
+.footer-section{
+  background: rgba(19, 19, 24, 0.05);
+  height: 500px;
+}
+.footer-main{
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.footer-main *{
+  margin-bottom: 15px;
+}
+.footer-main .font-awesome-container *{
+ gap: 55px;
+}
+.copyright{
+  padding-top: 140px;
+}
