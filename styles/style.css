@@ -184,6 +184,15 @@ body{
 .single-img-container{
   position: relative;
 }
+.single-img-container h4{
+  color: #FFF;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
 .single-img-container h3{
   color: #FFF;
   text-align: center;
