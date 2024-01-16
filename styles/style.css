@@ -216,6 +216,7 @@ body{
   flex-wrap: wrap;
   gap: 20px;
   /* padding: 15px; */
+  
 }
 .choose-body-content1{
   max-width: 500px;
@@ -247,6 +248,8 @@ body{
   border: 1px solid rgba(233, 68, 68, 0.20);
   background: rgba(233, 68, 68, 0.05);
   padding: 25px;
+  position: relative;
+  left: 250px;
 }
 .fa-solid{
   font-size: 20px;
@@ -289,7 +292,7 @@ body{
   background: rgba(255, 255, 255, 0.80);
   backdrop-filter: blur(2.5px);
   max-width: 510px;
-  height: 300px;
+  height: 400px;
   padding: 50px;
   position: absolute;
   top: 56px;
@@ -301,7 +304,7 @@ body{
   background: rgba(255, 255, 255, 0.80);
   backdrop-filter: blur(2.5px);
   max-width: 510px;
-  height: 300px;
+  height: 400px;
   padding: 50px;
   position: absolute;
   top: 56px;
