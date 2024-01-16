@@ -228,13 +228,76 @@ body{
 }
 
 
+/* Dealsanddiscounts Section */
 
+.dealsanddiscounts-main{
+  max-width: 1170px;
+  margin: 100px auto;
+  /* height: 1000px; */
+  /* border: 1px solid orangered; */
+}
+.dealsanddiscounts-text{
+  text-align: center;
+  margin-bottom: 40px;
+}
 
+.dealsanddiscounts-container *{
+  margin-bottom: 26px;
+}
 
+.ddpackages{
+  background-image: url(../Images/Group\ 39.png);
+  max-width: 1170px;
+  height: 500px;
+  position: relative;
+}
 
-
-
-
+.ddpackages2{
+  background-image: url(../Images/Group\ 40.png);
+  max-width: 1170px;
+  height: 500px;
+  position: relative;
+}
+.ddcard{
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+  max-width: 510px;
+  height: 300px;
+  padding: 50px;
+  position: absolute;
+  top: 56px;
+  right: 56px;
+}
+.ddcard2{
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+  max-width: 510px;
+  height: 300px;
+  padding: 50px;
+  position: absolute;
+  top: 56px;
+  left: 56px;
+}
+.ddcard .fa-solid{
+  font-size: 16px;
+  margin-right: 10px;
+  color: #FF5400;
+}
+.ddcard h4{
+  color: #FF5400;
+}
+.ddcard2 .fa-solid{
+  font-size: 16px;
+  margin-right: 10px;
+  color: #FF5400;
+}
+.ddcard2 h4{
+  color: #FF5400;
+}
 
 
 
