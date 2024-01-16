@@ -197,10 +197,11 @@ body{
   min-height: 270px;
   align-items: center;
   border-radius: 16px;
-  padding-top: 100px;
+  
   border: 1px solid rgba(251, 181, 99, 0.20);
   background: rgba(251, 181, 99, 0.05);
   padding: 25px;
+
 }
 .choose-body-content2{
   max-width: 500px;
@@ -224,4 +225,55 @@ body{
 }
 .fa-solid{
   font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Video Section */
+
+.video-section{
+  margin-top: 40px;
+}
+.video-main{
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.vid-text{
+  width: 50%;
+  
+}
+.vid-text *{
+  margin-bottom: 10px;
+  padding: 15px;
+}
+.vid-content{
+  /* max-width: 610px;
+  height: 420px; */
+  padding-top: 50px;
+  
+}
+.vid-content iframe{
+  border-radius: 15px;
+  
 }
