@@ -277,3 +277,72 @@ body{
   border-radius: 15px;
   
 }
+
+
+
+/* newletter section */
+
+.newsletter-main{
+  max-width: 1170px;
+  margin: 140px auto;
+  display: flex;
+  gap: 24px;
+}
+.newsletter-text{
+  border: 1px solid #FF5400;
+  width: 50%;
+  height: 370px;
+  border-radius: 16px;
+  padding: 30px;
+  gap: 20px;
+ 
+}
+.newsletter-text *{
+  margin-bottom: 15px;
+}
+.subscribe #newsletter-subscribe{
+ display: inline-block;
+ width: 393px;
+ height: 52px;
+ border-radius: 16px;
+ border: none;
+}
+
+.subscribe button{
+  width: 399px;
+  border-radius: 16px;
+}
+
+.newsletter-img-main{
+  min-height: 422px;
+}
+
+.voucher{
+  max-width: 324px;
+  height: 120px;
+  background: #FF5400;
+  border-radius: 16px;
+  text-align: center;
+  align-items: center;
+  padding: 35px;
+}
+.voucher p{
+  color: #FFF;
+  /* text-align: center; */
+  font-size: 24px;
+  font-weight: 400;
+}
+.voucher h4{
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 800;
+  
+}
+.img-container{
+  position: relative;
+}
+.img-container .voucher{
+  position: absolute;
+  top: 200px;
+  right: 40px;
+}
