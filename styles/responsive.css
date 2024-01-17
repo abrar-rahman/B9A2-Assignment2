@@ -17,7 +17,7 @@
    
   }
   .nav-main{
-    transform: translateX(-200%);
+    transform: translateX(-800%);
   }
   /* banner section */
   .banner-main{
@@ -27,7 +27,7 @@
   }
   .banner-text-section{
    
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
 
   }
   .banner-text-section h1{
@@ -47,6 +47,7 @@
     justify-content: center;
   }
   
+
   /* popular section */
 
   .popular-main{
@@ -62,6 +63,15 @@
   .popular-img-section img{
   margin-left: 15px;
 }
+
+/* chooseus section */
+  /* .chooseus-body{
+    margin-top: 35px;
+  } */
+
+
+
+
 
 
   /* destination section */
@@ -85,10 +95,11 @@
   }
   .ddpackages{
     justify-content: center;
-    min-height: 520px;
+    /* min-height: 520px; */
     background-repeat: no-repeat;
     margin: 0 15px;
     border-radius: 16px;
+    
   }
   .ddpackages2{
     justify-content: center;
@@ -101,7 +112,7 @@
     margin-left: 45px;
     /* height: 310px; */
     /* padding: 60px; */
-
+    
   }
  
   .ddcard2{
